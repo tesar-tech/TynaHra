@@ -1,7 +1,50 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+<div class="d-flex">
+	<input @bind="currentcode" @oninput="ui =>  currentcode = (string)ui.Value" @onkeypress="OnKeyPress" />
+	<button class="btn btn-primary mx-1" @onclick="CodeSubmited" type="button">
+		Jop!
+	</button>
+</div>
 
-Welcome to your new app.
+<div>
+	@switch (code.ToLower())
+	{
+		case "ahoj":
+			<div>Zdravíme: Ahoj</div>
+			break;
+		case "cosi":
+			<div>Cosi</div>
+			break;
+		case "":
+			<div>Zadej kód 👆 a odmáčkni to 👍</div>
+			break;
+			
+		default:
+			<div>🤦‍♂️ Tento kód není platní zkus to jinak!?</div>
+			break;
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+	}
+</div>
+
+@code {
+
+	string code = "";
+	string currentcode = "";
+	string text = "";
+
+
+	void OnKeyPress(KeyboardEventArgs args)
+	{
+		if (args.Key == "Enter")
+			CodeSubmited();
+		Console.WriteLine(args.Key);
+	}
+
+	void CodeSubmited()
+	{
+		code = currentcode;
+
+	}
+	}
+
