@@ -1,4 +1,7 @@
-﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -58,3 +61,8 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
