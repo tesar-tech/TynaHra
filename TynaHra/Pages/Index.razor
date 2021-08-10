@@ -1,7 +1,7 @@
 ﻿@page "/"
 
 <div class="flex place-content-center mt-8">
-	<input class="px-2 text-red-800 bg-fuchsia-100" @bind="currentText" @oninput="ui =>  currentText = (string)ui.Value" @onkeypress="OnKeyPress" />
+	<input class="px-2 bg-pink-100 text-rose-800 " @bind="currentText" @oninput="ui =>  currentText = (string)ui.Value" @onkeypress="OnKeyPress" />
 	<button class="mx-1 bg-sky-500 rounded font-bold text-white text-center px-2 py-1 transition duration-300 ease-in-out hover:bg-blue-600" @onclick="CodeSubmited" type="button">
 		Jop!
 	</button>
@@ -10,14 +10,14 @@
 <div class="pt-5">
 	@if (!isCurrentCodeFine)
 	{
-		<div class="-mt-5 text-center text-fuchsia-800">
+		<div class="-mt-5 text-center text-sky-500">
 			@((MarkupString)CodesDatabase.EmptyOrWrongCode(code))
 		</div>
 	}
-	<div class="max-w-md mx-auto text-white text-justify px-3 py-2  mx-2 bg-gradient-to-r from-fuchsia-700 to-red-600 shadow-lg transform  -skew-y-0  rounded-lg">
+	<div class="max-w-md mx-auto text-white text-justify px-3 py-2  mx-2 bg-gradient-to-br from-rose-800  to-pink-300 shadow-lg rounded-lg">
 		@((MarkupString)currentWorkingHtml)
 	</div>
-</div>
+</div> 
 
 @code {
 
