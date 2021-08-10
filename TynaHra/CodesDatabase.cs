@@ -46,7 +46,7 @@ namespace TynaHra
                 <p>Centrum, Radotín, Hlubočepy a ???  ti napoví.</p>" },
             { "zbraslav", @"<p class=""text-lg font-bold"">Zbraslav</p>
                 <p>Cíl!</p>
-                <p>Téměř... Už jen pár kroků směr poslední kód a čeká tě obžérstvení i jiná zábava.</p>
+                <p>Téměř... Už jen pár kroků směr poslední kód, na Louce se občerstvíme, přepni na zábavní mód!</p>
                 <p>Gratulát!</p>" },
         };
 
