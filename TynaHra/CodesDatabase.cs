@@ -12,7 +12,7 @@ namespace TynaHra
         {
             {
                 "help",
-                @"<p>Ahoj, výtej ve hře.</p><p>Tvým úkolem je dostat se až na konec! Pomohout ti k tomu nápovědy,
+                @"<p>Ahoj, vítej ve hře.</p><p>Tvým úkolem je dostat se až na konec! Pomohou ti k tomu nápovědy,
 				které se zde objeví po zadání správného kódu. Jen to zkus (až toto dočteš), první kód je
 				<strong>start</strong>.</p>
                 <p>Nezáleží na velikosti písmen (<strong>START</strong> je také ok), počet špatně zadaných
@@ -28,7 +28,7 @@ namespace TynaHra
                 @"<p class=""text-lg  font-bold"">103</p>
                 <p> Pro kola i chodce, marš po ní do kopce po sto dvanáctce, ale jen krátce. </ p >
                 <p> Zaboč prudce hop a skok - přes potok.</ p >
-                 <p> V krytu břečťanu hledej šesti - místnou záhadu.</p> "
+                 <p> V krytu břečťanu hledej šestimístnou záhadu.</p> "
             },
             { "515855", @"<p class=""text-lg font-bold"">515855</p>
                  <p> Pokračuj Nad dráhou, až kde se Pod akát lomí, vydej se stezkou mezi stromy.</p>
@@ -42,7 +42,7 @@ namespace TynaHra
             { "221/39", @"<p class=""text-lg font-bold"">221/39</p>
                 <p>Pod akáty téměř v pravém 📐 přišla pošta. ✉️ </p>" },
              { "sl1z", @"<p class=""text-lg font-bold"">sl1z</p>
-                <p>Pokračuj po 112 dokud jí řeka (a A1) nezastaví</p>
+                <p>Pokračuj po 112 dokud jí řeka (a A1) nezastaví.</p>
                 <p>Centrum, Radotín, Hlubočepy a ???  ti napoví.</p>" },
             { "zbraslav", @"<p class=""text-lg font-bold"">Zbraslav</p>
                 <p>Cíl!</p>
