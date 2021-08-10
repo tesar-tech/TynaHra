@@ -22,7 +22,7 @@ namespace TynaHra
                 <p>Hodně zdaru!</p>"
             },
             { "start", @"<p class=""text-lg font-bold"">Start</p>
-     <p>Až bus tě vysadí, tři tečky ti poradí: <strong>723 . . . 001</strong>.</p> " },
+                 <p>Až bus tě vysadí, tři tečky ti poradí: <strong>723 . . . 001</strong>.</p> " },
             {
                 "103",
                 @"<p class=""text-lg  font-bold"">103</p>
@@ -33,7 +33,7 @@ namespace TynaHra
             { "515855", @"<p class=""text-lg font-bold"">515855</p>
                  <p> Pokračuj Nad dráhou, až kde se Pod akát lomí, vydej se stezkou mezi stromy.</p>
                  <p>""Dlážděnou"" zkus, až ujdeš kus.</p>
-                  <p>Hledej patník na něm kříž pohleď na něj trochu blíž. </p>" },
+                 <p>Hledej patník na něm kříž pohleď na něj trochu blíž. </p>" },
             { "e7c2", @"<p class=""text-lg font-bold"">e7c2</p>Gépées a dvojitý pařez 50.0147648N, 14.3817151E" },
             { "hlf", @"<p class=""text-lg font-bold"">hlf</p>
                 <p>Dojdi na vyhlídku, kde tři duby drží hlídku. </p>
@@ -43,8 +43,7 @@ namespace TynaHra
                 <p>Pod akáty téměř v pravém 📐 přišla pošta. ✉️ </p>" },
              { "sl1z", @"<p class=""text-lg font-bold"">sl1z</p>
                 <p>Pokračuj po 112 dokud jí řeka (a A1) nezastaví</p>
-                <p>Centrum, Radotín, Hlubočepy a ???  ti napoví.</p>
-                <p>Hledej barák kostkový, číslo popisné ti napoví.</p>" },
+                <p>Centrum, Radotín, Hlubočepy a ???  ti napoví.</p>" },
             { "zbraslav", @"<p class=""text-lg font-bold"">Zbraslav</p>
                 <p>Cíl!</p>
                 <p>Téměř... Už jen pár kroků směr poslední kód a čeká tě obžérstvení i jiná zábava.</p>
